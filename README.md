@@ -77,4 +77,4 @@ Some things I couldn't get working. Any help/tips appreciated.
 
 1. I could only get the definition snippets to indent properly at the top level by breaking indentation if nested, and vice versa, so i chose to break them if nested. Use the where snippet if you want a nested definition with a type declaration.
 
-2. For some reason this snippet does not work on my system if the key is the first character on the line. Since this should never happen in normal code, it shouldn't matter. Just a heads up.
+2. For some reason the lambda snippet does not work on my system if the key is the first character on the line. Since this should never happen in normal code, it shouldn't matter. Just a heads up.
