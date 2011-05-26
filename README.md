@@ -18,17 +18,17 @@ in later. Where types are expected, `T` is often the default. When I'm working
 I like to put `data T = T deriving (Show)` at the top of the file, so that I
 can skip some of those and fill them in later as well.
 
-I highly recommend you do somthing like the following in your emacs file
+I highly recommend you do something like the following in your emacs file
 
     (require 'yasnippet)
     (setq yas/trigger-key "<C-tab>") ;; make sure this is before yas/initialize
     (yas/initialize)
     (yas/load-directory (concat site-lisp "snippets"))
     
-Having the trigger-key as C-tab works out much better because then the tab
+Having the trigger-key as C-tab works out much better, because then the tab
 key will only be used for both haskell indentation, and cycling through yas fields,
 but not to trigger expansions. For example, if your point were at # below,
-hitting tab would reindent (as desired) instead of expanding the 'where' snippet.
+hitting tab would re-indent (as desired) instead of expanding the 'where' snippet.
 
     foo :: Foo -> Foo
     foo x = bar x y
