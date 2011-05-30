@@ -63,6 +63,7 @@ The Snippets
 -   newtype_braced : 'newb'
 -   pragma : 'prag'
 -   pragma_language : 'lang'
+-   separator : 'sep'
 -   tuple : ','
 -   triple : ',,'
 -   type : 'type'
